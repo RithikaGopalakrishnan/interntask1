@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+}
+.header1{
+  background-color:rgb(183, 16, 16);
+  height:75px;
+}
+.text{
+  color:white;
+  padding-left:410px;
+  padding-top:30px;
+  font-size:20px;
+  font-weight:bold;
+  vertical-align: center;
+}
+.header4{ 
+}
+.header:hover{
+  color:green;
+}
+.header1{
+  position:relative;
+}
+
+.header2{
+  background-color: black;
+  color: white;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  height:50px;
+  top:1px;
+  align-items: center;
+  top:75;
+  width:100%;
+  position: sticky;
+  
+}
+.hed21:hover,.hed22:hover,.hed23:hover{
+  color: green;
+  cursor:pointer;  
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,td{
+  padding:13px;
+  font-weight: none;
+  text-align: left;
+}
+.Name{
+  width:50%;
+  height: 30px;
+  font-weight: 500;
+  font-size: small;
+  background-color: transparent;
+}
+.fn1{
+  width:40px;
+}
+.fn2{
+  width:40px;
+}
+.fn3{
+  width:40px;
+}
+.submit{
+align-items: center;
+background-color:rgb(9, 122, 9);
+color: black;
+width:1300px;
+height:50px;
+border-radius:14px;
+border:none;
+
+}
+.submit:hover{
+ background-color: rgb(252, 252, 245);
+ color:rgb(9, 122, 9);
+ transform: opacity 1.5s;
+ border:1px solid rgb(9, 122, 9);
+}
+
